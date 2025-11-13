@@ -18,9 +18,6 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install
       - run: pnpm exec nuxt build --preset github_pages
-        env:
-          SUPABASE_URL: ${{ vars.NUXT_PUBLIC_SUPABASE_URL }}
-          SUPABASE_KEY: ${{ vars.NUXT_PUBLIC_SUPABASE_KEY }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

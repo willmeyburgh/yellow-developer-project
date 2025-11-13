@@ -14,8 +14,8 @@ export default defineNuxtConfig({
 
   modules: ['shadcn-nuxt','@nuxtjs/supabase'],
   supabase: {
-    url: process.env.SUPABASE_URL, // Placeholder: Replace with your Supabase URL or environment variable
-    key: process.env.SUPABASE_KEY, // Placeholder: Replace with your Supabase Key or environment variable
+    url: "https://iocxmzbjyguvhodcyqtt.supabase.co",
+    key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlvY3htemJqeWd1dmhvZGN5cXR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI5OTYxODMsImV4cCI6MjA3ODU3MjE4M30.HDH-BpQDzDlRn-F-_tdH6KQbWbq6NMIHa9vs6RXnl0M",
     redirect: false,
     cookieOptions: {
       maxAge: 0
