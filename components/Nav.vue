@@ -48,7 +48,7 @@ const isOpen = ref(false)
             </Button>
           </SheetTrigger>
           <SheetContent side="right">
-            <div class="flex flex-col space-y-4 pt-8">
+            <div class="flex flex-col space-y-4 pt-8 pl-4">
               <NuxtLink
                 v-for="link in navLinks"
                 :key="link.name"

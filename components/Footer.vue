@@ -85,9 +85,16 @@
       </div>
 
       <!-- Copyright -->
-      <div class="border-t border-white/15 pt-4 text-center">
+      <div class="border-t border-white/15 py-4 text-center">
         <p class="text-sm text-white/70 m-0">
-          © 2025 Yellow Digital Retailers Ltd. All rights reserved.
+          <a
+                href="https://github.com/willmeyburgh/yellow-developer-project"
+                target="_blank"
+                rel="noopener noreferrer"
+              class=" gap-2 text-white hover:text-[#fcd806] transition-all duration-300 hover:-translate-y-0.5"
+              >
+              GitHub Repository
+              </a>. Created by Will Meyburgh.
         </p>
       </div>
     </div>

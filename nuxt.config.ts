@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['shadcn-nuxt','@nuxtjs/supabase'],
+  modules: ['shadcn-nuxt','@nuxtjs/supabase', '@pinia/nuxt'],
   supabase: {
     url: "https://iocxmzbjyguvhodcyqtt.supabase.co",
     key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlvY3htemJqeWd1dmhvZGN5cXR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI5OTYxODMsImV4cCI6MjA3ODU3MjE4M30.HDH-BpQDzDlRn-F-_tdH6KQbWbq6NMIHa9vs6RXnl0M",
